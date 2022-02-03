@@ -53,7 +53,7 @@ def freq(s)
             check = test
             current = 1
         else
-            curent++
+            curent += 1
         end
         test = a.shift
     end
