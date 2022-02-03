@@ -6,8 +6,13 @@ class PhoneBook
     end
 
     def add(name, number, is_listed)
-        if lookup(name) || lookupByNum(number)
+        if lookupByNum(number)
             return false
+        end
+        for i in names
+            if i == name
+                return false
+            end
         end
         unless  number =~ /\d\d\d-\d\d\d-\d\d\d\d/
             return false
