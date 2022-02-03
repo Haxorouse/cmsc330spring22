@@ -13,7 +13,7 @@ class PhoneBook
             return false
         end
         #conditions
-        names.push(name)
+        @names.push(name)
         numbers.push(number)
         listed.push(is_listed)
         return true
@@ -21,9 +21,9 @@ class PhoneBook
 
     def lookup(name)
         i = 0
-        while i < names.length
-            if names[i] == name && listed[i]
-                return numbers[i]
+        while i < @names.length
+            if @names[i] == name && @listed[i]
+                return @numbers[i]
                 break
             end
             i += 1
@@ -33,9 +33,9 @@ class PhoneBook
 
     def lookupByNum(number)
         i = 0
-        while i < numbers.length
-            if numbers[i] == number && listed[i]
-                return names[i]
+        while i < @numbers.length
+            if @numbers[i] == number && @listed[i]
+                return @names[i]
                 break
             end
             i += 1
