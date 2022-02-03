@@ -55,7 +55,6 @@ def freq(s)
         else
             current += 1
         end
-        test = a.shift
     end
     if current > max
         max = current
