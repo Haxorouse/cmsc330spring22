@@ -14,8 +14,8 @@ class PhoneBook
         end
         #conditions
         @names.push(name)
-        numbers.push(number)
-        listed.push(is_listed)
+        @numbers.push(number)
+        @listed.push(is_listed)
         return true
     end
 
