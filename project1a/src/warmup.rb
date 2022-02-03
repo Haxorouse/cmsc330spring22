@@ -64,6 +64,7 @@ def freq(s)
 end
 
 def zipHash(arr1, arr2)
+    put "zipHash"
 if arr1.length != arr2.length
     return nil
 end
@@ -75,6 +76,7 @@ return out
 end
 
 def hashToArray(hash)
+    put "hash to array"
     keys = hash.keys
     out = Array.new(0)
     while keys.length > 0 do
