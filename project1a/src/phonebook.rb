@@ -49,6 +49,13 @@ class PhoneBook
     end
 
     def namesByAc(areacode)
-        raise Exception, "Not implemented"
+        out = Array.new(0)
+        i = 0
+        while i < @numbers.length
+            if @numbers[i][0,2] == areacode
+                out.push(@names[i])
+            end
+        end
+        return out
     end
 end
