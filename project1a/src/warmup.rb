@@ -44,6 +44,7 @@ def freq(s)
     check = a.shift
     maxChar = check
     while a.length > 0 do
+        puts "in freq loop"
         test = a.shift
         if test != check
             if current > max
