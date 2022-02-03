@@ -1,8 +1,8 @@
 class PhoneBook
     def initialize
-        names = Array.new(0)
-        numbers = Array.new(0)
-        listed = Array.new(0)
+        @names = Array.new(0)
+        @numbers = Array.new(0)
+        @listed = Array.new(0)
     end
 
     def add(name, number, is_listed)
