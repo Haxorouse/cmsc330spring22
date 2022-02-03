@@ -9,7 +9,7 @@ class PhoneBook
         if lookup(name) || lookupByNum(number)
             return false
         end
-        unless number ~= /\d\d\d-\d\d\d-\d\d\d\d/
+        unless  number =~ /\d\d\d-\d\d\d-\d\d\d\d/
             return false
         end
         #conditions
