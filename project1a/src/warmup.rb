@@ -8,7 +8,7 @@ def fib(n)
     end
     if n > 2
         i = 2
-        until i == n do
+        while i < n do
             out.push(out[-1] + out[-2])
         end
     end
@@ -17,7 +17,7 @@ end
 
 def isPalindrome(n)
     n = n.to_s.split(//)
-    until n.length < 2
+    while n.length > 1
         a = n.pop
         b = n.shift
         if a != b
