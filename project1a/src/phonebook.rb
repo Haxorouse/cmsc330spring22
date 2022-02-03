@@ -9,7 +9,7 @@ class PhoneBook
         if lookupByNum(number)
             return false
         end
-        for i in names
+        for i in @names
             if i == name
                 return false
             end
