@@ -6,6 +6,7 @@ class PhoneBook
     end
 
     def add(name, number, is_listed)
+        #puts "add"
         if lookupByNum(number)
             return false
         end
@@ -25,6 +26,7 @@ class PhoneBook
     end
 
     def lookup(name)
+        #puts "name"
         i = 0
         while i < @names.length
             if @names[i] == name && @listed[i]
@@ -37,6 +39,7 @@ class PhoneBook
     end
 
     def lookupByNum(number)
+        #puts "num"
         i = 0
         while i < @numbers.length
             if @numbers[i] == number && @listed[i]
@@ -49,12 +52,15 @@ class PhoneBook
     end
 
     def namesByAc(areacode)
+        #puts "ac"
         out = Array.new(0)
         i = 0
         while i < @numbers.length
-            if @numbers[i][0,2] == areacode
+            #puts "reading #{@numbers[i][0..2]}"
+            if @numbers[i][0..2] == areacode
                 out.push(@names[i])
             end
+            i += 1
         end
         return out
     end

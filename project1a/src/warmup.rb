@@ -1,4 +1,5 @@
 def fib(n)
+    #puts "fib"
     out = Array.new(0)
     if n > 0
         out.push(0)
@@ -10,12 +11,14 @@ def fib(n)
         i = 2
         while i < n do
             out.push(out[-1] + out[-2])
+            i += 1
         end
     end
     return out
 end
 
 def isPalindrome(n)
+    #puts "pal"
     n = n.to_s.split(//)
     while n.length > 1
         a = n.pop
@@ -28,12 +31,14 @@ def isPalindrome(n)
 end
 
 def nthmax(n, a)
+    #puts "nmax"
     a.sort!
     a.reverse!
     return a[n]
 end
 
 def freq(s)
+    #puts "freq"
     a = s.split(//)
     if a.length == 0
         return ""
@@ -64,7 +69,7 @@ def freq(s)
 end
 
 def zipHash(arr1, arr2)
-    put "zipHash"
+    #puts "zipHash"
 if arr1.length != arr2.length
     return nil
 end
@@ -76,7 +81,7 @@ return out
 end
 
 def hashToArray(hash)
-    put "hash to array"
+    #puts "hash to array"
     keys = hash.keys
     out = Array.new(0)
     while keys.length > 0 do
