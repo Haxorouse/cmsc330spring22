@@ -1,0 +1,11 @@
+2022-03-08T04:55:47+00:00 Celestrium#05 I: Start test public:4:assoc_list.
+2022-03-08T04:55:47+00:00 Celestrium#05 I: Test public:4:assoc_list is successful.
+2022-03-08T04:55:47+00:00 Celestrium#05 I: End test public:4:assoc_list.
+2022-03-08T04:55:47+00:00 Celestrium#05 I: Start test public:8:int_tree_insert_and_size.
+2022-03-08T04:55:47+00:00 Celestrium#05 E: Test public:8:int_tree_insert_and_size exited with an error.
+2022-03-08T04:55:47+00:00 Celestrium#05 E: Failure("unimplemented") in test public:8:int_tree_insert_and_size.
+2022-03-08T04:55:47+00:00 Celestrium#05 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-03-08T04:55:47+00:00 Celestrium#05 E: Called from Dune__exe__Public.public_int_tree_insert_and_size in file "test/public/public.ml", line 102, characters 27-57
+2022-03-08T04:55:47+00:00 Celestrium#05 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-03-08T04:55:47+00:00 Celestrium#05 E: 
+2022-03-08T04:55:47+00:00 Celestrium#05 I: End test public:8:int_tree_insert_and_size.
