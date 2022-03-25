@@ -1,194 +1,158 @@
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Runner: processes
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Chooser: simple
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration suite_name = "public"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration cache_filename = "/mnt/c/Users/Haxorouse/Documents/GitHub/cmsc330spring22/project2b/_build/default/test/public/oUnit-$(suite_name).cache"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration run_gc_full_major = "true"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration display = "true"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration results_style_1_X = "false"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration testdata_dir = "none"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration health_check_interval = "1."
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration verbose = "false"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration chooser = "simple"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration output_html_dir = "none"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration processes_kill_period = "5."
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration runner = "processes"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration shards = "8"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration processes_grace_period = "5."
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration log_encoding = "utf-8"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration output_junit_file = "none"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration ci = "false"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Configuration output_file = "/mnt/c/Users/Haxorouse/Documents/GitHub/cmsc330spring22/project2b/_build/default/test/public/oUnit-$(suite_name)-$(shard_id).log"
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Using 8 workers maximum.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Starting worker number Celestrium#01.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#01 started.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Starting worker number Celestrium#02.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#02 started.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Starting worker number Celestrium#03.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#03 started.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Starting worker number Celestrium#04.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#04 started.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Starting worker number Celestrium#05.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#05 started.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Starting worker number Celestrium#06.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#06 started.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Starting worker number Celestrium#07.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#07 started.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Starting worker number Celestrium#08.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#08 started.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: 8 tests running: public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list, public:3:uniq, public:2:count_occ, public:1:is_present, public:0:is_elem.
-2022-03-08T04:55:47+00:00 Celestrium#01 I: Start test public:0:is_elem.
-2022-03-08T04:55:47+00:00 Celestrium#03 I: Start test public:2:count_occ.
-2022-03-08T04:55:47+00:00 Celestrium#05 I: Start test public:4:assoc_list.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: 8 tests running: public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list, public:3:uniq, public:2:count_occ, public:1:is_present, public:0:is_elem.
-2022-03-08T04:55:47+00:00 Celestrium#01 I: Test public:0:is_elem is successful.
-2022-03-08T04:55:47+00:00 Celestrium#02 I: Start test public:1:is_present.
-2022-03-08T04:55:47+00:00 Celestrium#03 I: Test public:2:count_occ is successful.
-2022-03-08T04:55:47+00:00 Celestrium#05 I: Test public:4:assoc_list is successful.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: 8 tests running: public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list, public:3:uniq, public:2:count_occ, public:1:is_present, public:0:is_elem.
-2022-03-08T04:55:47+00:00 Celestrium#01 I: End test public:0:is_elem.
-2022-03-08T04:55:47+00:00 Celestrium#02 I: Test public:1:is_present is successful.
-2022-03-08T04:55:47+00:00 Celestrium#03 I: End test public:2:count_occ.
-2022-03-08T04:55:47+00:00 Celestrium#04 I: Start test public:3:uniq.
-2022-03-08T04:55:47+00:00 Celestrium#05 I: End test public:4:assoc_list.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: 8 tests running: public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list, public:3:uniq, public:2:count_occ, public:1:is_present, public:0:is_elem.
-2022-03-08T04:55:47+00:00 Celestrium#02 I: End test public:1:is_present.
-2022-03-08T04:55:47+00:00 Celestrium#04 I: Test public:3:uniq is successful.
-2022-03-08T04:55:47+00:00 Celestrium#06 I: Start test public:5:ap.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: 8 tests running: public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:3:uniq, public:1:is_present.
-2022-03-08T04:55:47+00:00 Celestrium#04 I: End test public:3:uniq.
-2022-03-08T04:55:47+00:00 Celestrium#06 I: Test public:5:ap is successful.
-2022-03-08T04:55:47+00:00 Celestrium#07 I: Start test public:6:insert_and_max.
-2022-03-08T04:55:47+00:00 Celestrium#05 I: Start test public:8:int_tree_insert_and_size.
-2022-03-08T04:55:47+00:00 Celestrium#03 I: Start test public:9:tree_map_put_and_get.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Still 8 tests running : public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:3:uniq.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: 8 tests running: public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:3:uniq.
-2022-03-08T04:55:47+00:00 Celestrium#06 I: End test public:5:ap.
-2022-03-08T04:55:47+00:00 Celestrium#07 E: Test public:6:insert_and_max exited with an error.
-2022-03-08T04:55:47+00:00 Celestrium#07 E: Failure("unimplemented") in test public:6:insert_and_max.
-2022-03-08T04:55:47+00:00 Celestrium#07 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-2022-03-08T04:55:47+00:00 Celestrium#07 E: Called from Dune__exe__Public.public_int_tree_insert_and_max in file "test/public/public.ml", line 113, characters 27-57
-2022-03-08T04:55:47+00:00 Celestrium#07 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2022-03-08T04:55:47+00:00 Celestrium#07 E: 
-2022-03-08T04:55:47+00:00 Celestrium#08 I: Start test public:7:int_tree_insert_and_mem.
-2022-03-08T04:55:47+00:00 Celestrium#05 E: Test public:8:int_tree_insert_and_size exited with an error.
-2022-03-08T04:55:47+00:00 Celestrium#05 E: Failure("unimplemented") in test public:8:int_tree_insert_and_size.
-2022-03-08T04:55:47+00:00 Celestrium#05 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-2022-03-08T04:55:47+00:00 Celestrium#05 E: Called from Dune__exe__Public.public_int_tree_insert_and_size in file "test/public/public.ml", line 102, characters 27-57
-2022-03-08T04:55:47+00:00 Celestrium#05 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2022-03-08T04:55:47+00:00 Celestrium#05 E: 
-2022-03-08T04:55:47+00:00 Celestrium#03 E: Test public:9:tree_map_put_and_get exited with an error.
-2022-03-08T04:55:47+00:00 Celestrium#03 E: Failure("unimplemented") in test public:9:tree_map_put_and_get.
-2022-03-08T04:55:47+00:00 Celestrium#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-2022-03-08T04:55:47+00:00 Celestrium#03 E: Called from Dune__exe__Public.public_tree_map_put_and_get in file "test/public/public.ml", line 123, characters 11-27
-2022-03-08T04:55:47+00:00 Celestrium#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2022-03-08T04:55:47+00:00 Celestrium#03 E: 
-2022-03-08T04:55:47+00:00 Celestrium#01 I: Start test public:10:var.
-2022-03-08T04:55:47+00:00 Celestrium#02 I: Start test public:11:scopes.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Still 7 tests running : public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: 7 tests running: public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap.
-2022-03-08T04:55:47+00:00 Celestrium#07 I: End test public:6:insert_and_max.
-2022-03-08T04:55:47+00:00 Celestrium#08 E: Test public:7:int_tree_insert_and_mem exited with an error.
-2022-03-08T04:55:47+00:00 Celestrium#08 E: Failure("unimplemented") in test public:7:int_tree_insert_and_mem.
-2022-03-08T04:55:47+00:00 Celestrium#08 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-2022-03-08T04:55:47+00:00 Celestrium#08 E: Called from Dune__exe__Public.public_int_tree_insert_and_mem in file "test/public/public.ml", line 90, characters 27-57
-2022-03-08T04:55:47+00:00 Celestrium#08 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2022-03-08T04:55:47+00:00 Celestrium#08 E: 
-2022-03-08T04:55:47+00:00 Celestrium#05 I: End test public:8:int_tree_insert_and_size.
-2022-03-08T04:55:47+00:00 Celestrium#03 I: End test public:9:tree_map_put_and_get.
-2022-03-08T04:55:47+00:00 Celestrium#01 E: Test public:10:var exited with an error.
-2022-03-08T04:55:47+00:00 Celestrium#01 E: Failure("unimplemented") in test public:10:var.
-2022-03-08T04:55:47+00:00 Celestrium#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-2022-03-08T04:55:47+00:00 Celestrium#01 E: Called from Dune__exe__Public.public_var in file "test/public/public.ml", line 133, characters 10-32
-2022-03-08T04:55:47+00:00 Celestrium#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2022-03-08T04:55:47+00:00 Celestrium#01 E: 
-2022-03-08T04:55:47+00:00 Celestrium#02 E: Test public:11:scopes exited with an error.
-2022-03-08T04:55:47+00:00 Celestrium#02 E: Failure("unimplemented") in test public:11:scopes.
-2022-03-08T04:55:47+00:00 Celestrium#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-2022-03-08T04:55:47+00:00 Celestrium#02 E: Called from Dune__exe__Public.public_scopes in file "test/public/public.ml", line 143, characters 10-32
-2022-03-08T04:55:47+00:00 Celestrium#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2022-03-08T04:55:47+00:00 Celestrium#02 E: 
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Still 6 tests running : public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: 6 tests running: public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max.
-2022-03-08T04:55:47+00:00 Celestrium#08 I: End test public:7:int_tree_insert_and_mem.
-2022-03-08T04:55:47+00:00 Celestrium#01 I: End test public:10:var.
-2022-03-08T04:55:47+00:00 Celestrium#02 I: End test public:11:scopes.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Still 3 tests running : public:11:scopes, public:10:var, public:7:int_tree_insert_and_mem.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: 3 tests running: public:11:scopes, public:10:var, public:7:int_tree_insert_and_mem.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: 0 tests running: .
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#04 has ended.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#06 has ended.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#07 has ended.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#05 has ended.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#03 has ended.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#08 has ended.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#01 has ended.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Worker Celestrium#02 has ended.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Used 8 worker during test execution.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#04.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#06.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#07.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Run 2 tests with shard Celestrium#03.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Run 2 tests with shard Celestrium#01.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Run 2 tests with shard Celestrium#05.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Run 2 tests with shard Celestrium#02.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#08.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Check health of shard Celestrium#04, 4 times.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Check health of shard Celestrium#06, 3 times.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Check health of shard Celestrium#07, 2 times.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Check health of shard Celestrium#03, 2 times.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Check health of shard Celestrium#01, 1 times.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Check health of shard Celestrium#05, 2 times.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Check health of shard Celestrium#02, 1 times.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Check health of shard Celestrium#08, 1 times.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: ==============
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Summary:
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Test public:11:scopes exited with an error.
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Failure("unimplemented") in test public:11:scopes.
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Called from Dune__exe__Public.public_scopes in file "test/public/public.ml", line 143, characters 10-32
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2022-03-08T04:55:47+00:00 Celestrium#00 E: 
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Test public:10:var exited with an error.
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Failure("unimplemented") in test public:10:var.
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Called from Dune__exe__Public.public_var in file "test/public/public.ml", line 133, characters 10-32
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2022-03-08T04:55:47+00:00 Celestrium#00 E: 
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Test public:7:int_tree_insert_and_mem exited with an error.
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Failure("unimplemented") in test public:7:int_tree_insert_and_mem.
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Called from Dune__exe__Public.public_int_tree_insert_and_mem in file "test/public/public.ml", line 90, characters 27-57
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2022-03-08T04:55:47+00:00 Celestrium#00 E: 
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Test public:9:tree_map_put_and_get exited with an error.
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Failure("unimplemented") in test public:9:tree_map_put_and_get.
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Called from Dune__exe__Public.public_tree_map_put_and_get in file "test/public/public.ml", line 123, characters 11-27
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2022-03-08T04:55:47+00:00 Celestrium#00 E: 
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Test public:8:int_tree_insert_and_size exited with an error.
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Failure("unimplemented") in test public:8:int_tree_insert_and_size.
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Called from Dune__exe__Public.public_int_tree_insert_and_size in file "test/public/public.ml", line 102, characters 27-57
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2022-03-08T04:55:47+00:00 Celestrium#00 E: 
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Test public:6:insert_and_max exited with an error.
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Failure("unimplemented") in test public:6:insert_and_max.
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Called from Dune__exe__Public.public_int_tree_insert_and_max in file "test/public/public.ml", line 113, characters 27-57
-2022-03-08T04:55:47+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
-2022-03-08T04:55:47+00:00 Celestrium#00 E: 
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Test public:5:ap is successful.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Test public:3:uniq is successful.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Test public:1:is_present is successful.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Test public:4:assoc_list is successful.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Test public:2:count_occ is successful.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Test public:0:is_elem is successful.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Ran: 12 tests in: 0.14 seconds.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Cases: 12.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Tried: 12.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Errors: 6.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Failures: 0.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Skip: 0.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Todo: 0.
-2022-03-08T04:55:47+00:00 Celestrium#00 I: Timeout: 0.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Runner: processes
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Chooser: simple
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration suite_name = "public"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration cache_filename = "/mnt/c/Users/Haxorouse/Documents/GitHub/cmsc330spring22/project2b/_build/default/test/public/oUnit-$(suite_name).cache"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration run_gc_full_major = "true"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration display = "true"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration results_style_1_X = "false"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration testdata_dir = "none"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration health_check_interval = "1."
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration verbose = "false"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration chooser = "simple"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration output_html_dir = "none"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration processes_kill_period = "5."
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration runner = "processes"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration shards = "8"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration processes_grace_period = "5."
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration log_encoding = "utf-8"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration output_junit_file = "none"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration ci = "false"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Configuration output_file = "/mnt/c/Users/Haxorouse/Documents/GitHub/cmsc330spring22/project2b/_build/default/test/public/oUnit-$(suite_name)-$(shard_id).log"
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Using 8 workers maximum.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Starting worker number Celestrium#01.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#01 started.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Starting worker number Celestrium#02.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#02 started.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Starting worker number Celestrium#03.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#03 started.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Starting worker number Celestrium#04.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#04 started.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Starting worker number Celestrium#05.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#05 started.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Starting worker number Celestrium#06.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#06 started.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Starting worker number Celestrium#07.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#07 started.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Starting worker number Celestrium#08.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#08 started.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: 8 tests running: public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list, public:3:uniq, public:2:count_occ, public:1:is_present, public:0:is_elem.
+2022-03-09T02:44:51+00:00 Celestrium#01 I: Start test public:0:is_elem.
+2022-03-09T02:44:51+00:00 Celestrium#02 I: Start test public:1:is_present.
+2022-03-09T02:44:51+00:00 Celestrium#03 I: Start test public:2:count_occ.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: 8 tests running: public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list, public:3:uniq, public:2:count_occ, public:1:is_present, public:0:is_elem.
+2022-03-09T02:44:51+00:00 Celestrium#01 I: Test public:0:is_elem is successful.
+2022-03-09T02:44:51+00:00 Celestrium#02 I: Test public:1:is_present is successful.
+2022-03-09T02:44:51+00:00 Celestrium#03 I: Test public:2:count_occ is successful.
+2022-03-09T02:44:51+00:00 Celestrium#04 I: Start test public:3:uniq.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: 8 tests running: public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list, public:3:uniq, public:2:count_occ, public:1:is_present, public:0:is_elem.
+2022-03-09T02:44:51+00:00 Celestrium#01 I: End test public:0:is_elem.
+2022-03-09T02:44:51+00:00 Celestrium#02 I: End test public:1:is_present.
+2022-03-09T02:44:51+00:00 Celestrium#03 I: End test public:2:count_occ.
+2022-03-09T02:44:51+00:00 Celestrium#04 I: Test public:3:uniq is successful.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: 8 tests running: public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list, public:3:uniq, public:2:count_occ, public:1:is_present, public:0:is_elem.
+2022-03-09T02:44:51+00:00 Celestrium#04 I: End test public:3:uniq.
+2022-03-09T02:44:51+00:00 Celestrium#05 I: Start test public:4:assoc_list.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: 8 tests running: public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list, public:3:uniq.
+2022-03-09T02:44:51+00:00 Celestrium#05 I: Test public:4:assoc_list is successful.
+2022-03-09T02:44:51+00:00 Celestrium#06 I: Start test public:5:ap.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Still 8 tests running : public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: 8 tests running: public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list.
+2022-03-09T02:44:51+00:00 Celestrium#05 I: End test public:4:assoc_list.
+2022-03-09T02:44:51+00:00 Celestrium#06 I: Test public:5:ap is successful.
+2022-03-09T02:44:51+00:00 Celestrium#03 I: Start test public:8:int_tree_insert_and_size.
+2022-03-09T02:44:51+00:00 Celestrium#02 I: Start test public:9:tree_map_put_and_get.
+2022-03-09T02:44:51+00:00 Celestrium#01 I: Start test public:10:var.
+2022-03-09T02:44:51+00:00 Celestrium#04 I: Start test public:11:scopes.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Still 8 tests running : public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: 8 tests running: public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap, public:4:assoc_list.
+2022-03-09T02:44:51+00:00 Celestrium#06 I: End test public:5:ap.
+2022-03-09T02:44:51+00:00 Celestrium#07 I: Start test public:6:insert_and_max.
+2022-03-09T02:44:51+00:00 Celestrium#03 I: Test public:8:int_tree_insert_and_size is successful.
+2022-03-09T02:44:51+00:00 Celestrium#02 I: Test public:9:tree_map_put_and_get is successful.
+2022-03-09T02:44:51+00:00 Celestrium#01 E: Test public:10:var exited with an error.
+2022-03-09T02:44:51+00:00 Celestrium#01 E: Failure("unimplemented") in test public:10:var.
+2022-03-09T02:44:51+00:00 Celestrium#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-03-09T02:44:51+00:00 Celestrium#01 E: Called from Dune__exe__Public.public_var in file "test/public/public.ml", line 133, characters 10-32
+2022-03-09T02:44:51+00:00 Celestrium#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-03-09T02:44:51+00:00 Celestrium#01 E: 
+2022-03-09T02:44:51+00:00 Celestrium#04 E: Test public:11:scopes exited with an error.
+2022-03-09T02:44:51+00:00 Celestrium#04 E: Failure("unimplemented") in test public:11:scopes.
+2022-03-09T02:44:51+00:00 Celestrium#04 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-03-09T02:44:51+00:00 Celestrium#04 E: Called from Dune__exe__Public.public_scopes in file "test/public/public.ml", line 143, characters 10-32
+2022-03-09T02:44:51+00:00 Celestrium#04 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-03-09T02:44:51+00:00 Celestrium#04 E: 
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Still 7 tests running : public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: 7 tests running: public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max, public:5:ap.
+2022-03-09T02:44:51+00:00 Celestrium#07 I: Test public:6:insert_and_max is successful.
+2022-03-09T02:44:51+00:00 Celestrium#08 I: Start test public:7:int_tree_insert_and_mem.
+2022-03-09T02:44:51+00:00 Celestrium#03 I: End test public:8:int_tree_insert_and_size.
+2022-03-09T02:44:51+00:00 Celestrium#02 I: End test public:9:tree_map_put_and_get.
+2022-03-09T02:44:51+00:00 Celestrium#01 I: End test public:10:var.
+2022-03-09T02:44:51+00:00 Celestrium#04 I: End test public:11:scopes.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Still 6 tests running : public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: 6 tests running: public:11:scopes, public:10:var, public:9:tree_map_put_and_get, public:8:int_tree_insert_and_size, public:7:int_tree_insert_and_mem, public:6:insert_and_max.
+2022-03-09T02:44:51+00:00 Celestrium#07 I: End test public:6:insert_and_max.
+2022-03-09T02:44:51+00:00 Celestrium#08 I: Test public:7:int_tree_insert_and_mem is successful.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Still 2 tests running : public:7:int_tree_insert_and_mem, public:6:insert_and_max.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: 2 tests running: public:7:int_tree_insert_and_mem, public:6:insert_and_max.
+2022-03-09T02:44:51+00:00 Celestrium#08 I: End test public:7:int_tree_insert_and_mem.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Still 1 tests running : public:7:int_tree_insert_and_mem.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: 1 tests running: public:7:int_tree_insert_and_mem.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: 0 tests running: .
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#05 has ended.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#06 has ended.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#03 has ended.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#02 has ended.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#01 has ended.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#04 has ended.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#07 has ended.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Worker Celestrium#08 has ended.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Used 8 worker during test execution.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Run 2 tests with shard Celestrium#04.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#06.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#07.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Run 2 tests with shard Celestrium#03.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Run 2 tests with shard Celestrium#01.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#05.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Run 2 tests with shard Celestrium#02.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#08.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Check health of shard Celestrium#06, 4 times.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Check health of shard Celestrium#04, 3 times.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Check health of shard Celestrium#07, 2 times.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Check health of shard Celestrium#03, 3 times.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Check health of shard Celestrium#01, 3 times.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Check health of shard Celestrium#05, 5 times.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Check health of shard Celestrium#02, 3 times.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Check health of shard Celestrium#08, 1 times.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: ==============
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Summary:
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Test public:7:int_tree_insert_and_mem is successful.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Test public:6:insert_and_max is successful.
+2022-03-09T02:44:51+00:00 Celestrium#00 E: Test public:11:scopes exited with an error.
+2022-03-09T02:44:51+00:00 Celestrium#00 E: Failure("unimplemented") in test public:11:scopes.
+2022-03-09T02:44:51+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-03-09T02:44:51+00:00 Celestrium#00 E: Called from Dune__exe__Public.public_scopes in file "test/public/public.ml", line 143, characters 10-32
+2022-03-09T02:44:51+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-03-09T02:44:51+00:00 Celestrium#00 E: 
+2022-03-09T02:44:51+00:00 Celestrium#00 E: Test public:10:var exited with an error.
+2022-03-09T02:44:51+00:00 Celestrium#00 E: Failure("unimplemented") in test public:10:var.
+2022-03-09T02:44:51+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-03-09T02:44:51+00:00 Celestrium#00 E: Called from Dune__exe__Public.public_var in file "test/public/public.ml", line 133, characters 10-32
+2022-03-09T02:44:51+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-03-09T02:44:51+00:00 Celestrium#00 E: 
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Test public:9:tree_map_put_and_get is successful.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Test public:8:int_tree_insert_and_size is successful.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Test public:5:ap is successful.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Test public:4:assoc_list is successful.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Test public:3:uniq is successful.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Test public:2:count_occ is successful.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Test public:1:is_present is successful.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Test public:0:is_elem is successful.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Ran: 12 tests in: 0.15 seconds.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Cases: 12.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Tried: 12.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Errors: 2.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Failures: 0.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Skip: 0.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Todo: 0.
+2022-03-09T02:44:51+00:00 Celestrium#00 I: Timeout: 0.

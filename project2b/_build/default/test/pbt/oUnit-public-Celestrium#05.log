@@ -1,6 +1,12 @@
-2022-03-08T04:55:47+00:00 Celestrium#05 I: Start test public:4:test_uniq_out_len.
-2022-03-08T04:55:48+00:00 Celestrium#05 I: 
-2022-03-08T04:55:48+00:00 Celestrium#05 I: law test_uniq_out_len: 1000 relevant cases (1000 total)
-2022-03-08T04:55:48+00:00 Celestrium#05 I: 
-2022-03-08T04:55:48+00:00 Celestrium#05 I: Test public:4:test_uniq_out_len is successful.
-2022-03-08T04:55:48+00:00 Celestrium#05 I: End test public:4:test_uniq_out_len.
+2022-03-09T02:44:51+00:00 Celestrium#05 I: Start test public:4:test_uniq_out_len.
+2022-03-09T02:44:51+00:00 Celestrium#05 I: 
+2022-03-09T02:44:51+00:00 Celestrium#05 I: law test_uniq_out_len: 1000 relevant cases (1000 total)
+2022-03-09T02:44:51+00:00 Celestrium#05 I: 
+2022-03-09T02:44:51+00:00 Celestrium#05 I: Test public:4:test_uniq_out_len is successful.
+2022-03-09T02:44:51+00:00 Celestrium#05 I: End test public:4:test_uniq_out_len.
+2022-03-09T02:44:51+00:00 Celestrium#05 I: Start test public:14:test_map_put_bigger_goes_right.
+2022-03-09T02:44:51+00:00 Celestrium#05 I: 
+2022-03-09T02:44:51+00:00 Celestrium#05 I: law test_map_put_bigger_goes_right: 1000 relevant cases (1000 total)
+2022-03-09T02:44:51+00:00 Celestrium#05 I: 
+2022-03-09T02:44:51+00:00 Celestrium#05 I: Test public:14:test_map_put_bigger_goes_right is successful.
+2022-03-09T02:44:51+00:00 Celestrium#05 I: End test public:14:test_map_put_bigger_goes_right.
