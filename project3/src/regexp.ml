@@ -26,10 +26,30 @@ let fresh =
 (* Part 3: Regular Expressions *)
 (*******************************)
 
-let regexp_to_nfa (regexp: regexp_t) : (int, char) nfa_t =
-  failwith "unimplemented"
+let rec regexp_to_nfa (regex: regexp_t) : (int, char) nfa_t =
+  match regex with
+  |Empty_String -> {q0 = fresh(); fs = fresh(); qs = insert q0 fs; delta = (q0, None, fs)}
+  |Char c -> let newF = fresh() in
+    {sigma = c; q0 = fresh(); fs = newF; qs = insert q0 fs; delta = (q0, Some c, newF)}
+  |Union (x, y) -> let newF = fresh() in
+    {sigma = x::y; q0 = fresh(); fs = newF; qs = insert q0 fs; delta = (q0, Some x, newF)::(q0, Some y, newF)}
+  |Concat (x, y) -> concatNfa (regexp_to_nfa x) (regexp_to_nfa y)
+  |Star reg -> match reg.fs with | oldF::_ -> 
+    let newF = fresh() in
+    {sigma = reg.sigma; q0 = fresh(); fs = newF; qs = insert_all reg.qs (q0::newF); delta = insert (insert (q0, None, reg.q0) ((q0, None, newF)::(oldF, None, newF))) reg.delta}
 
-(*****************************************************************)
+let concatNfa (nfa1: ('q,'s) nfa_t) (nfa2: ('q,'s) nfa_t) : ('q,'s) nfa_t =
+  (*joins sigma of nfa1 and 2, uses q0 of nfa1 as q0, creates epsilon
+  transitions from fs of nfa1 to q0 of nfa2 uses fs of nfa2 as fs, 
+  joins delta of nfa1 and 2, joins qs of nfa1 and 2*)
+  let sigmaOut = insert_all nfa2.sigma nfa1.sigma in
+  let deltaTemp = insert_all nfa2.delta nfa1.delta in
+  let qsOut = insert_all nfa2.qs nfa1.qs in
+  let joinTrans = fold(fun out final -> (final, None, nfa2.q0)::out) [] nfa.fs in
+  let deltaOut = insert_all joinTrans deltaTemp in
+  {sigma = sigmaOut; q0 = nfa1.q0; qs = qsOut; fs = nfa2.fs; delta = deltaOut};;
+
+(****************************************************************)
 (* Below this point is parser code that YOU DO NOT NEED TO TOUCH *)
 (*****************************************************************)
 
