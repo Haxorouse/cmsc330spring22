@@ -1,0 +1,6 @@
+2022-04-03T06:45:39+00:00 Celestrium#01 I: Start test public:0:nfa_accept.
+2022-04-03T06:45:39+00:00 Celestrium#01 I: Test public:0:nfa_accept is successful.
+2022-04-03T06:45:39+00:00 Celestrium#01 I: End test public:0:nfa_accept.
+2022-04-03T06:45:39+00:00 Celestrium#01 I: Start test public:9:regex_to_nfa.
+2022-04-03T06:45:39+00:00 Celestrium#01 I: Test public:9:regex_to_nfa is successful.
+2022-04-03T06:45:39+00:00 Celestrium#01 I: End test public:9:regex_to_nfa.

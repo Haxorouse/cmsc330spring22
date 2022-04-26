@@ -1,0 +1,14 @@
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Start test public:2:area.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Test public:2:area is successful.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: End test public:2:area.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Start test public:8:is_prime.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Test public:8:is_prime is successful.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: End test public:8:is_prime.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Start test public:14:is_palindrome.
+2022-04-03T03:03:18+00:00 Celestrium#03 E: Test public:14:is_palindrome exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#03 E: Failure("unimplemented") in test public:14:is_palindrome.
+2022-04-03T03:03:18+00:00 Celestrium#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#03 E: Called from Dune__exe__Public.test_is_palindrome in file "project2a/test/public/public.ml", line 97, characters 20-51
+2022-04-03T03:03:18+00:00 Celestrium#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#03 E: 
+2022-04-03T03:03:18+00:00 Celestrium#03 I: End test public:14:is_palindrome.

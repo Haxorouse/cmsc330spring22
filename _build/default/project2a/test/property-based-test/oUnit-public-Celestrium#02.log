@@ -1,0 +1,12 @@
+2022-04-03T03:03:18+00:00 Celestrium#02 I: Start test public:1:test_rev_twice.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: 
+2022-04-03T03:03:18+00:00 Celestrium#02 I: law test_rev_twice: 25 relevant cases (25 total)
+2022-04-03T03:03:18+00:00 Celestrium#02 I: 
+2022-04-03T03:03:18+00:00 Celestrium#02 I: Test public:1:test_rev_twice is successful.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: End test public:1:test_rev_twice.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: Start test public:9:test_pow_pos.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: 
+2022-04-03T03:03:18+00:00 Celestrium#02 I: law test_pow_pos: 30 relevant cases (30 total)
+2022-04-03T03:03:18+00:00 Celestrium#02 I: 
+2022-04-03T03:03:18+00:00 Celestrium#02 I: Test public:9:test_pow_pos is successful.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: End test public:9:test_pow_pos.

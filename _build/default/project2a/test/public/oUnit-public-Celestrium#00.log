@@ -1,0 +1,209 @@
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Runner: processes
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Chooser: simple
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration suite_name = "public"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration cache_filename = "/mnt/c/Users/Haxorouse/Documents/GitHub/cmsc330spring22/_build/default/project2a/test/public/oUnit-$(suite_name).cache"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration run_gc_full_major = "true"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration display = "true"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration results_style_1_X = "false"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration testdata_dir = "none"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration health_check_interval = "1."
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration verbose = "false"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration chooser = "simple"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration output_html_dir = "none"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration processes_kill_period = "5."
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration runner = "processes"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration shards = "8"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration processes_grace_period = "5."
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration log_encoding = "utf-8"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration output_junit_file = "none"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration ci = "false"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Configuration output_file = "/mnt/c/Users/Haxorouse/Documents/GitHub/cmsc330spring22/_build/default/project2a/test/public/oUnit-$(suite_name)-$(shard_id).log"
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Using 8 workers maximum.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Starting worker number Celestrium#01.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#01 started.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Starting worker number Celestrium#02.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#02 started.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Starting worker number Celestrium#03.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#03 started.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Starting worker number Celestrium#04.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#04 started.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Starting worker number Celestrium#05.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#05 started.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Starting worker number Celestrium#06.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#06 started.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Starting worker number Celestrium#07.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#07 started.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Starting worker number Celestrium#08.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#08 started.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 8 tests running: public:7:gcf, public:6:log, public:5:pow, public:4:fibonacci, public:3:volume, public:2:area, public:1:is_odd, public:0:rev_tup.
+2022-04-03T03:03:18+00:00 Celestrium#01 I: Start test public:0:rev_tup.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: Start test public:1:is_odd.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Start test public:2:area.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 8 tests running: public:7:gcf, public:6:log, public:5:pow, public:4:fibonacci, public:3:volume, public:2:area, public:1:is_odd, public:0:rev_tup.
+2022-04-03T03:03:18+00:00 Celestrium#01 I: Test public:0:rev_tup is successful.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: Test public:1:is_odd is successful.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Test public:2:area is successful.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 8 tests running: public:7:gcf, public:6:log, public:5:pow, public:4:fibonacci, public:3:volume, public:2:area, public:1:is_odd, public:0:rev_tup.
+2022-04-03T03:03:18+00:00 Celestrium#01 I: End test public:0:rev_tup.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: End test public:1:is_odd.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: End test public:2:area.
+2022-04-03T03:03:18+00:00 Celestrium#04 I: Start test public:3:volume.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 8 tests running: public:7:gcf, public:6:log, public:5:pow, public:4:fibonacci, public:3:volume, public:2:area, public:1:is_odd, public:0:rev_tup.
+2022-04-03T03:03:18+00:00 Celestrium#04 I: Test public:3:volume is successful.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: Start test public:4:fibonacci.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 8 tests running: public:10:larger, public:9:get, public:8:is_prime, public:7:gcf, public:6:log, public:5:pow, public:4:fibonacci, public:3:volume.
+2022-04-03T03:03:18+00:00 Celestrium#04 I: End test public:3:volume.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: Test public:4:fibonacci is successful.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Start test public:8:is_prime.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: Start test public:9:get.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 8 tests running: public:10:larger, public:9:get, public:8:is_prime, public:7:gcf, public:6:log, public:5:pow, public:4:fibonacci, public:3:volume.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: End test public:4:fibonacci.
+2022-04-03T03:03:18+00:00 Celestrium#06 I: Start test public:5:pow.
+2022-04-03T03:03:18+00:00 Celestrium#07 I: Start test public:6:log.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Test public:8:is_prime is successful.
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Test public:9:get exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Failure("unimplemented") in test public:9:get.
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Called from Dune__exe__Public.test_get in file "project2a/test/public/public.ml", line 68, characters 18-38
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#02 E: 
+2022-04-03T03:03:18+00:00 Celestrium#01 I: Start test public:10:larger.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 8 tests running: public:11:reverse, public:10:larger, public:9:get, public:8:is_prime, public:7:gcf, public:6:log, public:5:pow, public:4:fibonacci.
+2022-04-03T03:03:18+00:00 Celestrium#06 I: Test public:5:pow is successful.
+2022-04-03T03:03:18+00:00 Celestrium#07 I: Test public:6:log is successful.
+2022-04-03T03:03:18+00:00 Celestrium#08 I: Start test public:7:gcf.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: End test public:8:is_prime.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: End test public:9:get.
+2022-04-03T03:03:18+00:00 Celestrium#01 E: Test public:10:larger exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#01 E: Failure("unimplemented") in test public:10:larger.
+2022-04-03T03:03:18+00:00 Celestrium#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#01 E: Called from Dune__exe__Public.test_larger in file "project2a/test/public/public.ml", line 74, characters 25-50
+2022-04-03T03:03:18+00:00 Celestrium#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#01 E: 
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 8 tests running: public:12:combine, public:11:reverse, public:10:larger, public:9:get, public:8:is_prime, public:7:gcf, public:6:log, public:5:pow.
+2022-04-03T03:03:18+00:00 Celestrium#06 I: End test public:5:pow.
+2022-04-03T03:03:18+00:00 Celestrium#07 I: End test public:6:log.
+2022-04-03T03:03:18+00:00 Celestrium#08 I: Test public:7:gcf is successful.
+2022-04-03T03:03:18+00:00 Celestrium#01 I: End test public:10:larger.
+2022-04-03T03:03:18+00:00 Celestrium#04 I: Start test public:11:reverse.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: Start test public:12:combine.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Still 8 tests running : public:14:is_palindrome, public:13:merge, public:12:combine, public:11:reverse, public:10:larger, public:7:gcf, public:6:log, public:5:pow.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 8 tests running: public:14:is_palindrome, public:13:merge, public:12:combine, public:11:reverse, public:10:larger, public:7:gcf, public:6:log, public:5:pow.
+2022-04-03T03:03:18+00:00 Celestrium#08 I: End test public:7:gcf.
+2022-04-03T03:03:18+00:00 Celestrium#04 E: Test public:11:reverse exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#04 E: Failure("unimplemented") in test public:11:reverse.
+2022-04-03T03:03:18+00:00 Celestrium#04 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#04 E: Called from Dune__exe__Public.test_reverse in file "project2a/test/public/public.ml", line 81, characters 19-32
+2022-04-03T03:03:18+00:00 Celestrium#04 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#04 E: 
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Test public:12:combine exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Failure("unimplemented") in test public:12:combine.
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Called from Dune__exe__Public.test_combine in file "project2a/test/public/public.ml", line 85, characters 22-39
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#05 E: 
+2022-04-03T03:03:18+00:00 Celestrium#02 I: Start test public:13:merge.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Start test public:14:is_palindrome.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Still 5 tests running : public:14:is_palindrome, public:13:merge, public:12:combine, public:11:reverse, public:7:gcf.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 5 tests running: public:14:is_palindrome, public:13:merge, public:12:combine, public:11:reverse, public:7:gcf.
+2022-04-03T03:03:18+00:00 Celestrium#04 I: End test public:11:reverse.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: End test public:12:combine.
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Test public:13:merge exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Failure("unimplemented") in test public:13:merge.
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Called from Dune__exe__Public.test_merge in file "project2a/test/public/public.ml", line 91, characters 22-37
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#02 E: 
+2022-04-03T03:03:18+00:00 Celestrium#03 E: Test public:14:is_palindrome exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#03 E: Failure("unimplemented") in test public:14:is_palindrome.
+2022-04-03T03:03:18+00:00 Celestrium#03 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#03 E: Called from Dune__exe__Public.test_is_palindrome in file "project2a/test/public/public.ml", line 97, characters 20-51
+2022-04-03T03:03:18+00:00 Celestrium#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#03 E: 
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Still 4 tests running : public:14:is_palindrome, public:13:merge, public:12:combine, public:11:reverse.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 4 tests running: public:14:is_palindrome, public:13:merge, public:12:combine, public:11:reverse.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: End test public:13:merge.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: End test public:14:is_palindrome.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Still 2 tests running : public:14:is_palindrome, public:13:merge.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 2 tests running: public:14:is_palindrome, public:13:merge.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: 0 tests running: .
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#06 has ended.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#07 has ended.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#01 has ended.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#08 has ended.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#04 has ended.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#05 has ended.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#02 has ended.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Worker Celestrium#03 has ended.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Used 8 worker during test execution.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Run 2 tests with shard Celestrium#04.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#06.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#07.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Run 3 tests with shard Celestrium#03.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Run 2 tests with shard Celestrium#01.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Run 2 tests with shard Celestrium#05.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Run 3 tests with shard Celestrium#02.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Run 1 tests with shard Celestrium#08.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Check health of shard Celestrium#06, 4 times.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Check health of shard Celestrium#04, 2 times.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Check health of shard Celestrium#07, 4 times.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Check health of shard Celestrium#03, 1 times.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Check health of shard Celestrium#01, 4 times.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Check health of shard Celestrium#05, 2 times.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Check health of shard Celestrium#02, 1 times.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Check health of shard Celestrium#08, 3 times.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: ==============
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Summary:
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Test public:14:is_palindrome exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Failure("unimplemented") in test public:14:is_palindrome.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Called from Dune__exe__Public.test_is_palindrome in file "project2a/test/public/public.ml", line 97, characters 20-51
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#00 E: 
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Test public:13:merge exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Failure("unimplemented") in test public:13:merge.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Called from Dune__exe__Public.test_merge in file "project2a/test/public/public.ml", line 91, characters 22-37
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#00 E: 
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Test public:12:combine exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Failure("unimplemented") in test public:12:combine.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Called from Dune__exe__Public.test_combine in file "project2a/test/public/public.ml", line 85, characters 22-39
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#00 E: 
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Test public:11:reverse exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Failure("unimplemented") in test public:11:reverse.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Called from Dune__exe__Public.test_reverse in file "project2a/test/public/public.ml", line 81, characters 19-32
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#00 E: 
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Test public:7:gcf is successful.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Test public:10:larger exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Failure("unimplemented") in test public:10:larger.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Called from Dune__exe__Public.test_larger in file "project2a/test/public/public.ml", line 74, characters 25-50
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#00 E: 
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Test public:6:log is successful.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Test public:5:pow is successful.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Test public:9:get exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Failure("unimplemented") in test public:9:get.
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Called from Dune__exe__Public.test_get in file "project2a/test/public/public.ml", line 68, characters 18-38
+2022-04-03T03:03:18+00:00 Celestrium#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#00 E: 
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Test public:8:is_prime is successful.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Test public:4:fibonacci is successful.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Test public:3:volume is successful.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Test public:2:area is successful.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Test public:1:is_odd is successful.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Test public:0:rev_tup is successful.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Ran: 15 tests in: 0.13 seconds.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Cases: 15.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Tried: 15.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Errors: 6.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Failures: 0.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Skip: 0.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Todo: 0.
+2022-04-03T03:03:18+00:00 Celestrium#00 I: Timeout: 0.

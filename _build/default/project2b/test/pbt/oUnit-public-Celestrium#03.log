@@ -1,0 +1,18 @@
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Start test public:2:test_count_occ_target_in_lst.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: 
+2022-04-03T03:03:18+00:00 Celestrium#03 I: law test_count_occ_target_in_lst: 1000 relevant cases (1000 total)
+2022-04-03T03:03:18+00:00 Celestrium#03 I: 
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Test public:2:test_count_occ_target_in_lst is successful.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: End test public:2:test_count_occ_target_in_lst.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Start test public:9:test_int_insert_twice_size_same.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: 
+2022-04-03T03:03:18+00:00 Celestrium#03 I: law test_int_insert_twice_size_same: 1000 relevant cases (1000 total)
+2022-04-03T03:03:18+00:00 Celestrium#03 I: 
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Test public:9:test_int_insert_twice_size_same is successful.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: End test public:9:test_int_insert_twice_size_same.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Start test public:15:test_map_put_smaller_goes_left.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: 
+2022-04-03T03:03:18+00:00 Celestrium#03 I: law test_map_put_smaller_goes_left: 1000 relevant cases (1000 total)
+2022-04-03T03:03:18+00:00 Celestrium#03 I: 
+2022-04-03T03:03:18+00:00 Celestrium#03 I: Test public:15:test_map_put_smaller_goes_left is successful.
+2022-04-03T03:03:18+00:00 Celestrium#03 I: End test public:15:test_map_put_smaller_goes_left.

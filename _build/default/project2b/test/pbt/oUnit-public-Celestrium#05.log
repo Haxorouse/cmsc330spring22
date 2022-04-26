@@ -1,0 +1,43 @@
+2022-04-03T03:03:18+00:00 Celestrium#05 I: Start test public:4:test_uniq_out_len.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: 
+2022-04-03T03:03:18+00:00 Celestrium#05 I: law test_uniq_out_len: 1000 relevant cases (1000 total)
+2022-04-03T03:03:18+00:00 Celestrium#05 I: 
+2022-04-03T03:03:18+00:00 Celestrium#05 I: Test public:4:test_uniq_out_len is successful.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: End test public:4:test_uniq_out_len.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: Start test public:11:test_int_size_inc .
+2022-04-03T03:03:18+00:00 Celestrium#05 I: 
+2022-04-03T03:03:18+00:00 Celestrium#05 I: law test_int_size_inc : 1000 relevant cases (1000 total)
+2022-04-03T03:03:18+00:00 Celestrium#05 I: 
+2022-04-03T03:03:18+00:00 Celestrium#05 I: Test public:11:test_int_size_inc  is successful.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: End test public:11:test_int_size_inc .
+2022-04-03T03:03:18+00:00 Celestrium#05 I: Start test public:13:test_map_contains_after_inserted.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: 
+2022-04-03T03:03:18+00:00 Celestrium#05 I: law test_map_contains_after_inserted: 1000 relevant cases (1000 total)
+2022-04-03T03:03:18+00:00 Celestrium#05 I: 
+2022-04-03T03:03:18+00:00 Celestrium#05 I: Test public:13:test_map_contains_after_inserted is successful.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: End test public:13:test_map_contains_after_inserted.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: Start test public:16:test_add_var_single_scope.
+2022-04-03T03:03:18+00:00 Celestrium#05 I: 
+2022-04-03T03:03:18+00:00 Celestrium#05 I: law test_add_var_single_scope: 0 relevant cases (1 total)
+2022-04-03T03:03:18+00:00 Celestrium#05 I: 
+2022-04-03T03:03:18+00:00 Celestrium#05 E: 
+2022-04-03T03:03:18+00:00 Celestrium#05 E: test `test_add_var_single_scope` raised exception `Failure("unimplemented")`
+2022-04-03T03:03:18+00:00 Celestrium#05 E: on `("", 0) (after 3 shrink steps)`
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Called from Dune__exe__Pbt.test_add_var_single_scope.(fun) in file "project2b/test/pbt/pbt.ml", line 238, characters 12-25
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-03T03:03:18+00:00 Celestrium#05 E: 
+2022-04-03T03:03:18+00:00 Celestrium#05 E: 
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Test public:16:test_add_var_single_scope exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#05 E: test `test_add_var_single_scope` raised exception `Failure("unimplemented")`
+2022-04-03T03:03:18+00:00 Celestrium#05 E: on `("", 0) (after 3 shrink steps)`
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Called from Dune__exe__Pbt.test_add_var_single_scope.(fun) in file "project2b/test/pbt/pbt.ml", line 238, characters 12-25
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-03T03:03:18+00:00 Celestrium#05 E:  in test public:16:test_add_var_single_scope.
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-03T03:03:18+00:00 Celestrium#05 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#05 E: 
+2022-04-03T03:03:18+00:00 Celestrium#05 I: End test public:16:test_add_var_single_scope.

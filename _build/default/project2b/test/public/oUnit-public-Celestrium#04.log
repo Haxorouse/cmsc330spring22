@@ -1,0 +1,11 @@
+2022-04-03T03:03:18+00:00 Celestrium#04 I: Start test public:3:uniq.
+2022-04-03T03:03:18+00:00 Celestrium#04 I: Test public:3:uniq is successful.
+2022-04-03T03:03:18+00:00 Celestrium#04 I: End test public:3:uniq.
+2022-04-03T03:03:18+00:00 Celestrium#04 I: Start test public:11:scopes.
+2022-04-03T03:03:18+00:00 Celestrium#04 E: Test public:11:scopes exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#04 E: Failure("unimplemented") in test public:11:scopes.
+2022-04-03T03:03:18+00:00 Celestrium#04 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#04 E: Called from Dune__exe__Public.public_scopes in file "project2b/test/public/public.ml", line 143, characters 10-32
+2022-04-03T03:03:18+00:00 Celestrium#04 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#04 E: 
+2022-04-03T03:03:18+00:00 Celestrium#04 I: End test public:11:scopes.

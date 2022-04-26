@@ -1,0 +1,11 @@
+2022-04-03T03:03:18+00:00 Celestrium#01 I: Start test public:0:rev_tup.
+2022-04-03T03:03:18+00:00 Celestrium#01 I: Test public:0:rev_tup is successful.
+2022-04-03T03:03:18+00:00 Celestrium#01 I: End test public:0:rev_tup.
+2022-04-03T03:03:18+00:00 Celestrium#01 I: Start test public:10:larger.
+2022-04-03T03:03:18+00:00 Celestrium#01 E: Test public:10:larger exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#01 E: Failure("unimplemented") in test public:10:larger.
+2022-04-03T03:03:18+00:00 Celestrium#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#01 E: Called from Dune__exe__Public.test_larger in file "project2a/test/public/public.ml", line 74, characters 25-50
+2022-04-03T03:03:18+00:00 Celestrium#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#01 E: 
+2022-04-03T03:03:18+00:00 Celestrium#01 I: End test public:10:larger.

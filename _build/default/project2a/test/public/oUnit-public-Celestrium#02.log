@@ -1,0 +1,19 @@
+2022-04-03T03:03:18+00:00 Celestrium#02 I: Start test public:1:is_odd.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: Test public:1:is_odd is successful.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: End test public:1:is_odd.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: Start test public:9:get.
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Test public:9:get exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Failure("unimplemented") in test public:9:get.
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Called from Dune__exe__Public.test_get in file "project2a/test/public/public.ml", line 68, characters 18-38
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#02 E: 
+2022-04-03T03:03:18+00:00 Celestrium#02 I: End test public:9:get.
+2022-04-03T03:03:18+00:00 Celestrium#02 I: Start test public:13:merge.
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Test public:13:merge exited with an error.
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Failure("unimplemented") in test public:13:merge.
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Called from Dune__exe__Public.test_merge in file "project2a/test/public/public.ml", line 91, characters 22-37
+2022-04-03T03:03:18+00:00 Celestrium#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-03T03:03:18+00:00 Celestrium#02 E: 
+2022-04-03T03:03:18+00:00 Celestrium#02 I: End test public:13:merge.
