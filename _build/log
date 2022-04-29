@@ -1,10 +1,10 @@
 # dune runtest -f
 # OCAMLPARAM: unset
 # Workspace root: /mnt/c/Users/Haxorouse/Documents/GitHub/cmsc330spring22
-$ /usr/bin/nproc > /tmp/dunee4ed51.output 2> /dev/null
+$ /usr/bin/nproc > /tmp/dune776311.output 2> /dev/null
 # Auto-detected concurrency: 16
 # disable binary cache
-$ /home/hax/.opam/4.12.0/bin/ocamlc.opt -config > /tmp/dune4e5ff5.output
+$ /home/hax/.opam/4.12.0/bin/ocamlc.opt -config > /tmp/dune404ed5.output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -111,25 +111,13 @@ $ /home/hax/.opam/4.12.0/bin/ocamlc.opt -config > /tmp/dune4e5ff5.output
 #      ; windows_unicode = false
 #      }
 #  }
-$ (cd _build/default && /home/hax/.opam/4.12.0/bin/ocamldep.opt -modules -impl project3/src/nfa.ml) > _build/default/project3/src/.p3.objs/nfa.ml.d
-$ (cd _build/default && /home/hax/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39-33-32 -g -I project3/src/.p3.objs/byte -I project3/src/.p3.objs/native -intf-suffix .ml -no-alias-deps -opaque -open P3 -o project3/src/.p3.objs/native/p3__Nfa.cmx -c -impl project3/src/nfa.ml)
-$ (cd _build/default && /home/hax/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -27-39-33-32 -g -a -o project3/src/p3.cmxa project3/src/.p3.objs/native/p3.cmx project3/src/.p3.objs/native/p3__Sets.cmx project3/src/.p3.objs/native/p3__Nfa.cmx project3/src/.p3.objs/native/p3__Regexp.cmx)
-$ (cd _build/default && /home/hax/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o project3/test/public/public.exe /home/hax/.opam/4.12.0/lib/ocaml/str.cmxa -I /home/hax/.opam/4.12.0/lib/ocaml project3/src/p3.cmxa /home/hax/.opam/4.12.0/lib/ocaml/unix.cmxa -I /home/hax/.opam/4.12.0/lib/ocaml /home/hax/.opam/4.12.0/lib/stdlib-shims/stdlib_shims.cmxa /home/hax/.opam/4.12.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/hax/.opam/4.12.0/lib/ounit2/oUnit.cmxa project3/test/testUtils.cmxa project3/test/public/.public.eobjs/native/dune__exe__Public.cmx)
-$ (cd _build/default && /home/hax/.opam/4.12.0/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o project3/test/pbt/pbt.exe /home/hax/.opam/4.12.0/lib/ocaml/unix.cmxa -I /home/hax/.opam/4.12.0/lib/ocaml /home/hax/.opam/4.12.0/lib/qcheck-core/qcheck_core.cmxa /home/hax/.opam/4.12.0/lib/qcheck-core/runner/qcheck_runner.cmxa /home/hax/.opam/4.12.0/lib/stdlib-shims/stdlib_shims.cmxa /home/hax/.opam/4.12.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/hax/.opam/4.12.0/lib/ounit2/oUnit.cmxa /home/hax/.opam/4.12.0/lib/qcheck-ounit/qcheck_ounit.cmxa /home/hax/.opam/4.12.0/lib/qcheck/qcheck.cmxa /home/hax/.opam/4.12.0/lib/ocaml/str.cmxa -I /home/hax/.opam/4.12.0/lib/ocaml project3/src/p3.cmxa project3/test/testUtils.cmxa project3/test/pbt/.pbt.eobjs/native/dune__exe__Pbt.cmx)
-$ (cd _build/default/project3/test/public && ./public.exe)
-> ..........
-> Ran: 10 tests in: 0.13 seconds.
-> OK
-$ (cd _build/default/project3/test/pbt && ./pbt.exe)
->  seed: 186890021
-> generated error fail pass / total     time test name
-> ✗]    1    0    1    0 /  100     0.0s regex_to_nfa_accept
->
-> --- Failure --------------------------------------------------------------------
->
-> Test regex_to_nfa_accept failed (0 shrink steps):
->
-> Regex:(((((y)|(w))|((p)|(E)))|((s)((t)(c))))((((g)*)|((w)*))(((E)*)|((m)*))))(((((k)(l))((E)|(i)))(((r)|(q))|((v)|(t))))|((((f)*)|((k)(k)))|(((v)|(E))((E)|(n)))))
-> String:pwwwwwn
-> ================================================================================
-> failure (1 tests failed, 0 tests errored, ran 1 tests)
+$ (cd _build/default && /home/hax/.opam/4.12.0/bin/ocamldep.opt -modules -impl project4a/src/parser.ml) > _build/default/project4a/src/.p4a.objs/parser.ml.d
+> File "project4a/src/parser.ml", line 50, characters 35-36:
+> 50 |     if lookahead t1 = Some (Tok_ID _) then
+>                                         ^
+> Error: Syntax error: ')' expected
+> File "project4a/src/parser.ml", line 50, characters 27-28:
+> 50 |     if lookahead t1 = Some (Tok_ID _) then
+>                                 ^
+>   This '(' might be unmatched
+[2]
