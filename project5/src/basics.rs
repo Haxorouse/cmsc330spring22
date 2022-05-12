@@ -3,7 +3,9 @@
     If n is less than 0, return -1
 **/
 pub fn gauss(n: i32) -> i32 {
-    unimplemented!()
+    if (n < 0){return -1}
+    let out = (n * n) + n;
+    return out;
 }
 
 /**
@@ -11,7 +13,11 @@ pub fn gauss(n: i32) -> i32 {
     are in the range [s,e]
 **/
 pub fn in_range(ls: &[i32], s: i32, e: i32) -> i32 {
-    unimplemented!()
+    let mut count = 0;
+    for element in ls.iter(){
+        if (element >= &s && element <= &e){count+=1}
+    }
+    return count;
 }
 
 /**
@@ -20,7 +26,21 @@ pub fn in_range(ls: &[i32], s: i32, e: i32) -> i32 {
     Ex: [1,3,2] is a subset of [1,2,3,4,5]
 **/
 pub fn subset<T: PartialEq>(set: &[T], target: &[T]) -> bool {
-    unimplemented!()
+    let mut out = true;
+    for element in target.iter(){
+        let mut elem = false;
+        for check in set.iter(){
+            if (element == check){
+                elem = true;
+                break;
+            }
+        }
+        if(!elem){
+            out = false;
+            break;
+        }
+    }
+    return out;
 }
 
 /**
@@ -28,7 +48,13 @@ pub fn subset<T: PartialEq>(set: &[T], target: &[T]) -> bool {
     It might be helpful to use the fold method of the Iterator trait
 **/
 pub fn mean(ls: &[f64]) -> Option<f64> {
-    unimplemented!()
+    if (ls.len() == 0){return None;}
+    let mut sum:f64 = 0.0;
+    for element in ls.iter(){
+        sum += element;
+    }
+    let size:f64 = ls.len() as f64;
+    return Some(sum / size);
 }
 
 /**
@@ -37,7 +63,13 @@ pub fn mean(ls: &[f64]) -> Option<f64> {
     Ex: to_decimal of [1,0,1,0] returns 10
 **/
 pub fn to_decimal(ls: &[i32]) -> i32 {
-    unimplemented!()
+    let mut total = 0;
+    let mut place = 0;
+    for element in ls.iter(){
+        total += element * (2_i32.pow(place));
+        place+=1;
+    }
+    return total;
 }
 
 /**
